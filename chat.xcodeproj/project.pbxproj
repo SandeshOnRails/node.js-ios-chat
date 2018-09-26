@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		02A2860D215C3B4200BC8AAF /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A2860C215C3B4200BC8AAF /* RegisterViewController.swift */; };
 		02EE89EA21586FCE00D71264 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02EE89E921586FCE00D71264 /* AppDelegate.swift */; };
 		02EE89EC21586FCE00D71264 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02EE89EB21586FCE00D71264 /* ViewController.swift */; };
 		02EE89EF21586FCE00D71264 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02EE89ED21586FCE00D71264 /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		02A2860C215C3B4200BC8AAF /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		02EE89E621586FCE00D71264 /* chat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02EE89E921586FCE00D71264 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		02EE89EB21586FCE00D71264 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 				02EE89F021586FCF00D71264 /* Assets.xcassets */,
 				02EE89F221586FCF00D71264 /* LaunchScreen.storyboard */,
 				02EE89F521586FCF00D71264 /* Info.plist */,
+				02A2860C215C3B4200BC8AAF /* RegisterViewController.swift */,
 			);
 			path = chat;
 			sourceTree = "<group>";
@@ -162,15 +165,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-chat-checkManifestLockResult.txt",
 			);
@@ -184,8 +183,6 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-chat/Pods-chat-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
@@ -193,8 +190,6 @@
 				"${BUILT_PRODUCTS_DIR}/Parse/Parse.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
@@ -212,6 +207,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02A2860D215C3B4200BC8AAF /* RegisterViewController.swift in Sources */,
 				02EE89EC21586FCE00D71264 /* ViewController.swift in Sources */,
 				02EE89EA21586FCE00D71264 /* AppDelegate.swift in Sources */,
 			);
