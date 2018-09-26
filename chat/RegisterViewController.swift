@@ -61,7 +61,11 @@ class RegisterViewController: UIViewController {
         
         user.signUpInBackground { (success: Bool, error: Error?) in
             if let error = error {
-                print(error.localizedDescription)
+                
+                if error.localizedDescription == "Account already exists for this username." {
+                    
+                    self.errorLabel.text = error.localizedDescription
+                }
             } else {
                 print("User Registered successfully")
                 
