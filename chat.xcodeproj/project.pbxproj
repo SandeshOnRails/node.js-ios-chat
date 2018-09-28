@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		02A2860D215C3B4200BC8AAF /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A2860C215C3B4200BC8AAF /* RegisterViewController.swift */; };
+		02A2860F215C5C5E00BC8AAF /* Cipher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A2860E215C5C5E00BC8AAF /* Cipher.swift */; };
+		02A28611215C6C6200BC8AAF /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A28610215C6C6200BC8AAF /* ChatViewController.swift */; };
+		02A28613215C7D3100BC8AAF /* ChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02A28612215C7D3100BC8AAF /* ChatCell.swift */; };
 		02EE89EA21586FCE00D71264 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02EE89E921586FCE00D71264 /* AppDelegate.swift */; };
 		02EE89EC21586FCE00D71264 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02EE89EB21586FCE00D71264 /* ViewController.swift */; };
 		02EE89EF21586FCE00D71264 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02EE89ED21586FCE00D71264 /* Main.storyboard */; };
@@ -18,6 +21,9 @@
 
 /* Begin PBXFileReference section */
 		02A2860C215C3B4200BC8AAF /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		02A2860E215C5C5E00BC8AAF /* Cipher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cipher.swift; sourceTree = "<group>"; };
+		02A28610215C6C6200BC8AAF /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		02A28612215C7D3100BC8AAF /* ChatCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatCell.swift; sourceTree = "<group>"; };
 		02EE89E621586FCE00D71264 /* chat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		02EE89E921586FCE00D71264 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		02EE89EB21586FCE00D71264 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -66,10 +72,13 @@
 				02EE89E921586FCE00D71264 /* AppDelegate.swift */,
 				02EE89EB21586FCE00D71264 /* ViewController.swift */,
 				02EE89ED21586FCE00D71264 /* Main.storyboard */,
+				02A28610215C6C6200BC8AAF /* ChatViewController.swift */,
 				02EE89F021586FCF00D71264 /* Assets.xcassets */,
 				02EE89F221586FCF00D71264 /* LaunchScreen.storyboard */,
 				02EE89F521586FCF00D71264 /* Info.plist */,
 				02A2860C215C3B4200BC8AAF /* RegisterViewController.swift */,
+				02A2860E215C5C5E00BC8AAF /* Cipher.swift */,
+				02A28612215C7D3100BC8AAF /* ChatCell.swift */,
 			);
 			path = chat;
 			sourceTree = "<group>";
@@ -209,7 +218,10 @@
 			files = (
 				02A2860D215C3B4200BC8AAF /* RegisterViewController.swift in Sources */,
 				02EE89EC21586FCE00D71264 /* ViewController.swift in Sources */,
+				02A2860F215C5C5E00BC8AAF /* Cipher.swift in Sources */,
+				02A28611215C6C6200BC8AAF /* ChatViewController.swift in Sources */,
 				02EE89EA21586FCE00D71264 /* AppDelegate.swift in Sources */,
+				02A28613215C7D3100BC8AAF /* ChatCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

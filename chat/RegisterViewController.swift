@@ -22,6 +22,8 @@ class RegisterViewController: UIViewController {
     
     @IBOutlet weak var errorLabel: UILabel!
     
+    var cipher: Cipher!
+    
     
     
     override func viewDidLoad() {
@@ -46,6 +48,7 @@ class RegisterViewController: UIViewController {
             self.errorLabel.text = "*Please enter all the information below"
         }
         else {
+            
             registerUser()
         }
         
@@ -54,23 +57,22 @@ class RegisterViewController: UIViewController {
     
     func registerUser () {
         
+        
         let user = PFUser()
+        cipher = ROT13()
         user.username = self.registerUserName.text!
         user.email = self.registerEmail.text!
-        user.password = self.registerPassword.text!
+        user.password = cipher.encode(self.registerPassword.text!)
         
         user.signUpInBackground { (success: Bool, error: Error?) in
             if let error = error {
                 
-                if error.localizedDescription == "Account already exists for this username." {
-                    
-                    self.errorLabel.text = error.localizedDescription
-                }
+                     self.errorLabel.text = error.localizedDescription
+                
             } else {
                 print("User Registered successfully")
                 
             }
         }
-        
     }
 }
